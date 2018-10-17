@@ -1,0 +1,54 @@
+#app {
+margin: 0;
+padding: 0;
+width: 100%; 
+}
+
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+background-color: #1f217a;
+display: block;
+}
+
+.menu {
+position: absolute;
+left: 40%;
+top: 4%;
+}
+
+.menu ul li {
+list-style: none;
+display: inline-block;
+color: #ff00aa;
+padding: 0px 35px;
+font-size: 1.5em;
+}
+
+.header {
+position: absolute;
+top: 3%;
+left: 4%;
+}
+
+.header h1 {
+color: #00fffa;
+font-size: 45px;
+}
+
+.tagline {
+position: absolute;
+top: 46%;
+left: 24%;
+color: #a1a1a1;
+}
+
+.contact{
+position: absolute;
+color: #fff;
+bottom: 6%;
+left: 30%;
+font-size: 14px;
+}
