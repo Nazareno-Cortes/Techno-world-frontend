@@ -1,0 +1,17 @@
+.description{
+top: 40%;
+position: absolute;
+color: #fff;
+bottom: 6%;
+left: 30%;
+font-size: 1em;
+}
+
+.content h3{
+top: 4px;
+position: absolute;
+color: #000;
+bottom: 6%;
+left: 0.6%;
+font-size: 2em;
+}
