@@ -1,5 +1,5 @@
 body{
-  background: transparent url("../../src/images/login.jpg") no-repeat;
+  background: transparent url("../../../../src/images/login.jpg") no-repeat;
 }
 
 .header .header-h1 {
@@ -10,7 +10,7 @@ body{
     height: 95px;
 }
 
-.loginregister {
+.login {
     padding: 5em;
     display: flex;
     align-content: center;
@@ -20,8 +20,8 @@ body{
     flex-wrap: wrap;
 }
 
-.loginregister-box {
-    width: 400px;
+.login-box {
+    width: 300px;
     height: auto;
     background: rgba(255, 255, 255, 0.5);
     padding: 2em;
