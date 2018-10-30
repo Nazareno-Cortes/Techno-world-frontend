@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Reset.css';
 import './Homepage.css';
-import Product from './products/Product'
+import Product from './products/Product';
 
 class Homepage extends Component {
 render() {
