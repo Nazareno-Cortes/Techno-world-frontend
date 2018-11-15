@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Reset.css';
+import './tools/Reset.css';
 import './Homepage.css';
 import Product from './products/Product';
 

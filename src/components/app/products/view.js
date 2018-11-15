@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
-import './Product.css';
+import './../tools/Reset.css'
+import './style.css';
+import Product from '../products';
 
-class Product extends Component {
+class ProductList extends Component {
+
+      getProductList = () => {
+      const { products } = this.props
+      return this.props.products.map(item => (
+          <Product name={item.name} price={item.price} description={item.description}/>
+    ))
+  }
+
+
 render() {
 return (
 	<div class="description">
@@ -17,7 +28,6 @@ return (
        Design Ergonomic
        </p>
     </div>
-
 );
 }
 }
