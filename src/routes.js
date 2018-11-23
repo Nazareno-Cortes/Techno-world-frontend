@@ -1,19 +1,17 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-
+import { Route, Switch, Redirect } from 'react-router';
 import App from './components/app';
-import ProductList from './components/app/products';
-import Homepage from './cmponents/app/homepage';
+import Products from './components/app/Products';
+import Homepage from './components/app/Homepage';
 
-const AppRoutes = () =>
+const Routes = () => 
   
   <App>
     <Switch>
-        <Route path="/Products" component={ProductLis} />
-        <Route path="/Homepage" component={Homepage} />
+        <Route exact path= "/products" component= {Products} />
+        <Route exact path= "/homepage" component= {Homepage} />
 
-        <Route path="/" component={Home} />
     </Switch>
   </App>
 
-export default AppRoutes;
+export default Routes;

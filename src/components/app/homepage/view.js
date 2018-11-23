@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './tools/Reset.css';
-import './Homepage.css';
-import Product from './products/Product';
+import '../tools/Reset.css';
+import './style.css';
+
 
 class Homepage extends Component {
 render() {
@@ -20,7 +20,7 @@ return (
                </ul>
             </div>
             <div class="content">
-            <Product show={true}/>
+            
             <button onClick={this.chageTitle}>Add to cart </button>
             </div>
 
